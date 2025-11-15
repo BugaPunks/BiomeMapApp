@@ -1,0 +1,14 @@
+<div class="map-container">
+  @if (estaCargando) {
+    <div class="spinner-container">
+      <mat-spinner></mat-spinner>
+    </div>
+  } @else {
+    <div
+		class="map"
+		leaflet
+		[leafletOptions]="opcionesMapa"
+		(leafletMapReady)="onMapaListo($event)"
+	></div>
+  }
+</div>

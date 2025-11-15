@@ -1,0 +1,9 @@
+.main-content {
+  height: calc(100vh - 64px); /* Ajusta la altura para descontar la barra de herramientas (64px es la altura por defecto) */
+  display: flex;
+  flex-direction: column;
+}
+
+app-mapa {
+  flex-grow: 1; /* Permite que el componente del mapa ocupe todo el espacio disponible */
+}

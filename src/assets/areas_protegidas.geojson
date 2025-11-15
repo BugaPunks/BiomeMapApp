@@ -1,0 +1,24 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Parque Nacional Madidi",
+        "descripcion": "Una de las áreas con mayor biodiversidad del mundo."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-68.8, -13.0],
+            [-68.8, -14.5],
+            [-67.5, -14.5],
+            [-67.5, -13.0],
+            [-68.8, -13.0]
+          ]
+        ]
+      }
+    }
+  ]
+}

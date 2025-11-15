@@ -1,0 +1,12 @@
+<h1 mat-dialog-title>Detalles del Área Protegida</h1>
+<mat-dialog-content>
+  @if (data.properties?.['nombre']) {
+    <p><strong>Nombre:</strong> {{ data.properties?.['nombre'] }}</p>
+  }
+  @if (data.properties?.['descripcion']) {
+    <p><strong>Descripción:</strong> {{ data.properties?.['descripcion'] }}</p>
+  }
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="cerrar()">Cerrar</button>
+</mat-dialog-actions>
